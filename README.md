@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 # kumak
 
-Kumak is a robust helpdesk system designed to streamline customer support interactions. It provides a centralized platform for users to submit support tickets and for support agents to manage and resolve issues efficiently.
+Kumak is a thoughtfully curated online store dedicated to stylish and eco-friendly home essentials. It offers a seamless shopping experience, bringing together a collection of sustainable tableware, textiles, decor, organic cleaning solutions, and minimalist Scandinavian-inspired furniture, all designed to elevate your living space with elegance and sustainability.
 
 Team members: Komron Sodiqov, Dilnaz Satybaldy, Rustam Khalimov
 =======
