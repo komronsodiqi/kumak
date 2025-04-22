@@ -56,6 +56,10 @@ MIDDLEWARE = [
     "django.middleware.common.CommonMiddleware",
 ]
 
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:4200",
+]
+
 ROOT_URLCONF = 'kumak.urls'
 
 TEMPLATES = [
@@ -105,6 +109,11 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    )
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/

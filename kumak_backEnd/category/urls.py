@@ -12,7 +12,6 @@ from rest_framework.permissions import AllowAny
 def api_root(request):
     return Response({"message": "Welcome to the API!"})
 
-# Добавь AllowAny для TokenObtainPairView
 class PublicTokenObtainPairView(TokenObtainPairView):
     permission_classes = [AllowAny]
 
