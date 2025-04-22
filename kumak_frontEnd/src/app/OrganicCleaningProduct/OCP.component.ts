@@ -13,10 +13,10 @@ import { SearchPipe } from '../search.pipe';
   selector: 'app-OrganicCleaningProduct',
   standalone: true,
   imports: [Header2Component, FooterComponent, RouterModule, HttpClientModule, FormsModule, CommonModule, SearchPipe],
-  templateUrl: './OrganicCleaningProduct.component.html',
-  styleUrl: './OrganicCleaningProduct.component.css'
+  templateUrl: './OCP.component.html',
+  styleUrl: './OCP.component.css'
 })
-export class OrganicCleaningProductComponent {
+export class OCPComponent {
   word:any;
   products: Product[] = [];
   // @ts-ignore

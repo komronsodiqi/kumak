@@ -13,10 +13,10 @@ import { SearchPipe } from '../search.pipe';
   selector: 'app-dishes',
   standalone: true,
   imports: [Header2Component, FooterComponent, RouterModule, HttpClientModule, FormsModule, CommonModule, SearchPipe],
-  templateUrl: './dishes.component.html',
-  styleUrl: './dishes.component.css'
+  templateUrl: './textiles.component.html',
+  styleUrl: './textiles.component.css'
 })
-export class DishesComponent {
+export class TextilesComponent {
   word:any;
   products: Product[] = [];
   // @ts-ignore

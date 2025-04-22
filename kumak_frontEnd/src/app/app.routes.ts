@@ -7,8 +7,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { TablewareComponent } from './tableware/tableware.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { FurnitureComponent } from './furniture/furniture.component';
-import { DishesComponent } from './dishes/dishes.component';
-import { OrganicCleaningProductComponent } from './OrganicCleaningProduct/OrganicCleaningProduct.component';
+import { TextilesComponent } from './textiles/textiles.component';
+import { OCPComponent } from './OrganicCleaningProduct/OCP.component';
 import { PaintComponent } from './paint/paint.component';
 import { DecorComponent } from './decor/decor.component';
 
@@ -17,9 +17,10 @@ export const routes: Routes = [
     {path: 'login', component: LoginComponent},
     {path: 'about', component: AboutComponent},
     {path: 'categories', component: CategoriesComponent},
-    {path: 'categories/:id/furniture', component: TablewareComponent},
-    {path: 'categories/:id/Keys', component: DishesComponent},
-    {path: 'categories/:id/OrganicCleaningProduct', component: OrganicCleaningProductComponent},
+    {path: 'categories/:id/Tableware', component: TablewareComponent},
+    {path: 'categories/:id/Textiles', component: TextilesComponent},
+    {path: 'categories/:id/Keys', component: TextilesComponent},
+    {path: 'categories/:id/OrganicCleaningProduct', component: OCPComponent},
     {path: 'categories/:id/Paint', component: PaintComponent},
     {path: 'categories/:id/Decor', component: DecorComponent},
     {path: 'categories/:id/Furniture', component: FurnitureComponent},

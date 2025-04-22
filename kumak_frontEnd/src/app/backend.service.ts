@@ -7,7 +7,7 @@ import { Category, Product, Token } from './models';
   providedIn: 'root'
 })
 export class BackendService {
-  BASE_URL = 'http://127.0.0.1:8000/api/'; // Обновили базовый URL, добавив /api/
+  BASE_URL = 'http://127.0.0.1:8000/api/'; 
 
   constructor(private http: HttpClient) {}
 

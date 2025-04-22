@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DishesComponent } from './dishes.component';
+import { OCPComponent } from './OCP.component';
 
-describe('dishesComponent', () => {
-  let component: DishesComponent;
-  let fixture: ComponentFixture<DishesComponent>;
+describe('organicCleaningProductComponent', () => {
+  let component: OCPComponent;
+  let fixture: ComponentFixture<OCPComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [DishesComponent]
+      imports: [OCPComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(DishesComponent);
+    fixture = TestBed.createComponent(OCPComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
