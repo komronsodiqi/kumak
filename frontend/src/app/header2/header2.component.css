@@ -1,0 +1,113 @@
+.banner {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: bisque;
+
+}
+
+ h2 {
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 65px;
+    top: 33%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+ }
+
+
+.logo {
+    width: 70px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.logo2 {
+    width: 50px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 50%;
+    right: 80%;
+    transform: translateY(-50%); 
+}
+
+.logo3 {
+    width: 55px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 50%;
+    right: 80%;
+    transform: translateY(-50%); 
+
+}
+
+.logo4 {
+    width: 50px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 50%;
+    right: 90%;
+    transform: translateY(-50%); /* Center vertically */
+
+}
+
+.logo5 {
+    width: 50px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 50%;
+    right: 90%;
+    transform: translateY(-50%); /* Center vertically */
+
+}
+
+.logo6 {
+    width: 50px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 50%;
+    right: 90%;
+    transform: translateY(-50%); /* Center vertically */
+
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.navbar ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+

@@ -1,0 +1,33 @@
+<app-header2></app-header2>
+
+<div *ngIf="!logged">
+  <form (ngSubmit)="login()">
+      <div class="imgcontainer">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThIFh7wdQtB1StJgC_wOXliQ_dPgbKRdNq9nhnlT-mrA&s" alt="Avatar" class="avatar">
+      </div>
+    
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" [(ngModel)]="username" name="usern">
+        <p>Username: {{ username }}</p>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" [(ngModel)]="password" name="pass">
+        <p>Password: {{ password }}</p>
+
+        <button type="submit">Login</button>
+      </div>
+    
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn"><a routerLink="">Cancel</a></button>
+        <span class="psw">Forgot <a href="https://wsp.kbtu.kz">password?</a></span>
+      </div>
+  </form>
+</div>
+
+<div class="container" *ngIf="logged">
+    <h1>Welcome, {{ username }}!</h1>
+    <p>You have successfully logged in.</p>
+    <button (click)="logout()">Logout</button>
+</div>
+<app-footer></app-footer>
